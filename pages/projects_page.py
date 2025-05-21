@@ -7,8 +7,6 @@ class ProjectsPage(BasePage):
     """Страница 'Мои проекты'."""
 
     HEADER_LOCATOR = (By.CSS_SELECTOR, "header h1")
-    PROJECT_TYPE_DROPDOWN = (By.ID, "project-type-select")
-    PROJECT_NAME_INPUT = (By.ID, "project-name-input")
 
     def is_at_projects_page(self):
         """
